@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<div class="home">
+  {{ content }}
+
+  {% if site.posts.size > 0 %}
+    <h2 class="post-list-heading">{{ page.list_title | default: "Latest Notes" }}</h2>
+    <ul class="post-list">
+      {% for post in site.posts %}
+        <li>
+          <p class="post-meta">
+            {% if post.categories.size > 0 %}
+              {{ post.categories | first | capitalize }} —
+            {% endif %}
+            {{ post.date | date: "%B %-d, %Y" }}
+          </p>
+          <h3>
+            <a class="post-link" href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+          </h3>
+          {% if site.show_excerpts %}
+            <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+</div>
