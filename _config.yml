@@ -1,8 +1,8 @@
 title: AI Research Notes
 description: Short-form AI research notes, published as static Markdown.
 author: Heru Joko
-baseurl: ""
-url: "https://heruujoko.github.io/research-notes"
+baseurl: "/research-notes"
+url: "https://heruujoko.github.io"
 
 markdown: kramdown
 kramdown:
