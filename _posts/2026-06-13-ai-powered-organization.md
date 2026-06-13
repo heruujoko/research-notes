@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "AI Powered Organization"
-date: 2026-06-14 10:00:00 +0700
+date: 2026-06-13 10:00:00 +0700
 categories: research
 chapter: chapter-1-organization-and-memory
 ---
