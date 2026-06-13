@@ -1,0 +1,11 @@
+.tmp/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+vendor/
+_site/
+.bundle/
+*.gem
+.ruby-version
+Gemfile.lock
+.superpowers/

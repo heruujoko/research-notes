@@ -1,0 +1,28 @@
+title: AI Research Notes
+description: Short-form AI research notes, published as static Markdown.
+author: Heru Joko
+baseurl: ""
+url: "https://heruujoko.github.io/research-notes"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - .superpowers/
+
+show_excerpts: true
+
+minima:
+  skin: classic
+  social_links: []

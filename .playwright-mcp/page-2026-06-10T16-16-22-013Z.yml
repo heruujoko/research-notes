@@ -1,0 +1,77 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - link "NEO-UI." [ref=e6] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e7]:
+        - list [ref=e8]:
+          - listitem [ref=e9]:
+            - link "Components" [ref=e10] [cursor=pointer]:
+              - /url: /components/card
+          - listitem [ref=e11] [cursor=pointer]:
+            - link "github" [ref=e12]:
+              - /url: https://github.com/marieooq/neo-brutalism-ui-library
+              - img "github" [ref=e13]
+          - listitem [ref=e14]:
+            - link "Get Started" [ref=e15] [cursor=pointer]:
+              - /url: /overview
+              - button "Get Started" [ref=e16]
+  - generic [ref=e17]:
+    - list [ref=e19]:
+      - generic [ref=e20]:
+        - generic [ref=e21]: Getting started
+        - listitem [ref=e22]:
+          - link "Overview" [ref=e23] [cursor=pointer]:
+            - /url: /overview
+      - generic [ref=e24]:
+        - generic [ref=e25]: Components
+        - listitem [ref=e27]:
+          - link "Card" [ref=e28] [cursor=pointer]:
+            - /url: /components/card
+        - listitem [ref=e30]:
+          - link "Button" [ref=e31] [cursor=pointer]:
+            - /url: /components/button
+        - listitem [ref=e33]:
+          - link "IconButton" [ref=e34] [cursor=pointer]:
+            - /url: /components/iconButton
+        - listitem [ref=e36]:
+          - link "Input" [ref=e37] [cursor=pointer]:
+            - /url: /components/input
+        - listitem [ref=e39]:
+          - link "Dialog" [ref=e40] [cursor=pointer]:
+            - /url: /components/dialog
+        - listitem [ref=e42]:
+          - link "Checkbox" [ref=e43] [cursor=pointer]:
+            - /url: /components/checkbox
+        - listitem [ref=e45]:
+          - link "DropDown" [ref=e46] [cursor=pointer]:
+            - /url: /components/dropdown
+        - listitem [ref=e48]:
+          - link "ToggleSwitch" [ref=e49] [cursor=pointer]:
+            - /url: /components/toggleSwitch
+        - generic [ref=e50]:
+          - listitem [ref=e51]:
+            - link "ProgressBar" [ref=e52] [cursor=pointer]:
+              - /url: /components/progressBar
+          - generic [ref=e53]: New
+    - generic [ref=e55]:
+      - heading "card" [level=1] [ref=e56]
+      - link [ref=e61] [cursor=pointer]:
+        - /url: /overview
+        - article [ref=e62]:
+          - figure [ref=e63]:
+            - img "thumbnail"
+          - generic [ref=e64]:
+            - paragraph [ref=e65]: June 15th, 2023
+            - heading "Neo Brutallism" [level=1] [ref=e66]
+            - paragraph [ref=e67]: Neobrutalism is an aesthetic characterized by high contrast elements, bright colors, and bold shapes. It is often used to make a statement, as it is meant to be eye-catching and stand out to the viewer. It is also used in user interface and web design, with features such as vibrant colors and bold shapes. Neobrutalism can also be used in print design, with an example being a bold shape with a vibrant color fill applied to it.
+            - strong [ref=e68]: Get Started
+      - generic [ref=e69]:
+        - link "icon" [ref=e71] [cursor=pointer]:
+          - /url: https://github.com/marieooq/neo-brutalism-ui-library/blob/main/src/components/Card.tsx
+          - button "icon" [ref=e72]:
+            - img "icon"
+        - button "coopy Copy to clipboard" [ref=e73] [cursor=pointer]:
+          - img "coopy" [ref=e74]
+          - text: Copy to clipboard
+      - code [ref=e77]: <div class="w-80 h-full border-black border-2 rounded-md hover:shadow-[8px_8px_0px_rgba(0,0,0,1)] bg-white"> <a href="" class="block cursor-pointer"> <article class="w-full h-full"> <figure class="w-full h-1/2 border-black border-b-2"> <img src="https://neo-brutalism-ui-library.vercel.app/assets/neo-brutalism-image3-6c6a875b.jpg" alt="thumbnail" class="w-full h-full object-cover" /> </figure> <div class="px-6 py-5 text-left h-full"> <p class="text-base mb-4">May 15th, 2023</p> <h1 class="text-[32px] mb-4">Neo Brutallism</h1> <p class="text-xs mb-4 line-clamp-4"> Neobrutalism is an aesthetic characterized by high contrast elements, bright colors, and bold shapes. It is often used to make a statement, as it is meant to be eye-catching and stand out to the viewer. It is also used in user interface and web design, with features such as vibrant colors and bold shapes. Neobrutalism can also be used in print design, with an example being a bold shape with a vibrant color fill applied to it. </p> <strong>Read More</strong> </div> </article> </a> </div>
