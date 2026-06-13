@@ -22,7 +22,3 @@ exclude:
   - .superpowers/
 
 show_excerpts: true
-
-minima:
-  skin: classic
-  social_links: []
