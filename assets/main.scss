@@ -71,6 +71,8 @@ a {
   letter-spacing: -0.02em;
   color: $text;
   text-decoration: none;
+  text-decoration-thickness: 0;
+  text-underline-offset: 0;
   &:hover {
     background: transparent;
     color: $accent;
