@@ -88,6 +88,8 @@ a {
     color: $text;
     text-decoration: none;
     display: inline-flex;
+    align-items: center;
+    line-height: 1;
     &:hover {
       color: $accent;
       background: transparent;
@@ -100,7 +102,7 @@ a {
   svg {
     width: 22px;
     height: 22px;
-    vertical-align: middle;
+    display: block;
   }
 }
 
